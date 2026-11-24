@@ -1,0 +1,13 @@
+---
+description: How to write tests
+globs: "**/*.{spec,test}.*"
+alwaysApply: false
+---
+
+# Testing rules
+
+- Test what the code does, not how it does it.
+- One behaviour per test, with a clear name.
+- Cover the happy path, invalid input, edge cases and errors.
+- Mock only external things like network calls, time and files.
+- Never delete or weaken a test just to make it pass.

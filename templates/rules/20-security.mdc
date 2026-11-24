@@ -1,0 +1,11 @@
+---
+description: Basic security rules
+alwaysApply: true
+---
+
+# Security rules
+
+- Validate all input that comes from users or other systems.
+- Check that the user is allowed to do the action.
+- Read secrets from environment variables, never hard-code them.
+- Do not log passwords, tokens or personal data.

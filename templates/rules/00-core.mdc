@@ -1,0 +1,8 @@
+---
+description: Main project rules
+alwaysApply: true
+---
+
+Follow the rules in `AGENTS.md` at the root of the project.
+
+Use the slash commands in `.cursor/commands/` (for example `/review` or `/gen-tests`) when they fit the task.

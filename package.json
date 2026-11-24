@@ -1,0 +1,20 @@
+{
+  "name": "agent-sdlc-toolkit",
+  "version": "0.1.0",
+  "description": "Ready-made rules, slash commands and hooks for Claude Code and Cursor.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "agent-sdlc-toolkit": "bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "templates"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
