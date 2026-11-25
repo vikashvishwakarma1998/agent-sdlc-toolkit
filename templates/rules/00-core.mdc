@@ -5,4 +5,11 @@ alwaysApply: true
 
 Follow the rules in `AGENTS.md` at the root of the project.
 
-Use the slash commands in `.cursor/commands/` (for example `/review` or `/gen-tests`) when they fit the task.
+If a plan for the current feature exists in `docs/plans/`, follow it. Do not add scope it does not include.
+
+Suggest the matching slash command from `.cursor/commands/` instead of improvising the workflow:
+
+- New feature with open decisions → `/plan-feature`
+- Confirmed plan that needs breaking down → `/split-stories`
+- Feature finished → `/review`, and `/review-security` if it touches input, auth, data or dependencies
+- A fix has failed twice, or the approach looks wrong → `/triage-bug`

@@ -6,6 +6,9 @@ alwaysApply: true
 # Security rules
 
 - Validate all input that comes from users or other systems.
+- Pass user input to queries as parameters. Never build SQL, shell commands or file paths from it by joining strings.
 - Check that the user is allowed to do the action.
 - Read secrets from environment variables, never hard-code them.
 - Do not log passwords, tokens or personal data.
+- Hash passwords with a slow algorithm made for passwords, and generate tokens with a secure random source.
+- Ask before adding a new dependency.

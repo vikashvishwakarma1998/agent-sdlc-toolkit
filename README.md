@@ -36,12 +36,12 @@ Requires Node.js 20 or newer.
 
 | Command | What it does |
 | --- | --- |
-| `/plan-feature` | Turns a feature idea into a short plan |
-| `/split-stories` | Splits a plan into small stories |
-| `/review` | Reviews the current changes |
-| `/review-security` | Looks for security problems in the current changes |
-| `/gen-tests` | Writes tests for a file or feature |
-| `/triage-bug` | Finds the cause of a bug and suggests a fix |
+| `/plan-feature` | Thinks a feature through with you and saves a confirmed plan to `docs/plans/` |
+| `/split-stories` | Splits a plan into small stories and saves them to `docs/stories/` |
+| `/review` | Checks a finished feature against its plan, the project's standards and production readiness |
+| `/review-security` | Looks for security problems in the current changes and rates them by severity |
+| `/gen-tests` | Lists test cases, writes and runs the tests, and reports any bugs found |
+| `/triage-bug` | Works out what kind of failure you have (bug, messy session or wrong approach) and handles it |
 | `/release-notes` | Adds release notes to `CHANGELOG.md` |
 
 Example: `/plan-feature add password reset by email`

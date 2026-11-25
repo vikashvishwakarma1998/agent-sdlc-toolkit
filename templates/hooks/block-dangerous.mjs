@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 // Runs before the agent runs a shell command and blocks a few dangerous ones.
 // Works for both Claude Code (PreToolUse) and Cursor (beforeShellExecution).
 

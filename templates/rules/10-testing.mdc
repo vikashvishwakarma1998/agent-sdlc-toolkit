@@ -1,6 +1,6 @@
 ---
 description: How to write tests
-globs: "**/*.{spec,test}.*"
+globs: "**/*.test.*,**/*.spec.*,**/__tests__/**,**/*_test.*"
 alwaysApply: false
 ---
 
@@ -10,4 +10,6 @@ alwaysApply: false
 - One behaviour per test, with a clear name.
 - Cover the happy path, invalid input, edge cases and errors.
 - Mock only external things like network calls, time and files.
+- Keep tests repeatable: no real time, network, or dependence on test order.
+- When fixing a bug, add a test that fails without the fix.
 - Never delete or weaken a test just to make it pass.

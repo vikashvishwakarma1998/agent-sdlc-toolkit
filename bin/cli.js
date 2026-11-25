@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 // agent-sdlc-toolkit: copies rules, commands and hooks into the current project.
 
 import { copyFileSync, existsSync, mkdirSync, readdirSync } from 'node:fs';
